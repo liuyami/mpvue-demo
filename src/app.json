@@ -1,0 +1,9 @@
+{
+    "pages" : ["pages/index/main", "pages/oauth/main", "pages/actions/main"],
+    "window": {
+        "backgroundTextStyle"         : "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText"      : "微信小程序功能演示",
+        "navigationBarTextStyle"      : "black"
+    }
+}
