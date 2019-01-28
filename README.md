@@ -1,6 +1,9 @@
-# demo
+# 用 MPVUE 框架开发微信小程序联系
 
-> test
+## 所用组件
+
+> *   iView
+> *   Vuex
 
 ## Build Setup
 
