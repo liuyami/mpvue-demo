@@ -2,8 +2,8 @@
 
 ## 所用组件
 
-> *   iView
-> *   Vuex
+> *   weui
+> *   iconfont
 
 ## Build Setup
 

@@ -53,7 +53,22 @@ export default {
 </script>
 
 <style>
-.container {
+html, body {
+    height: 100%;
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+body{
+    font-family: -apple-system-font, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+body, .page {
+    background-color: #F8F8F8;
     height         : 100%;
     display        : flex;
     flex-direction : column;
@@ -63,10 +78,32 @@ export default {
     box-sizing     : border-box;
 }
 
-* {
-    transition        : width 2s;
-    -moz-transition   : width 2s;
-    -webkit-transition: width 2s;
-    -o-transition     : width 2s;
+.page__hd {
+    padding: 40px;
+}
+.page__bd {
+    padding-bottom: 40px;
+}
+.page__bd_spacing {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.page__ft{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.page__title {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.page__desc {
+    margin-top: 5px;
+    color: #888888;
+    text-align: left;
+    font-size: 14px;
 }
 </style>

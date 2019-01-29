@@ -1,14 +1,27 @@
 <template>
-    <div class="container">
-        <i-button
-            type      = "primary"
-            shape     = "circle"
-            size      = "large"
-            inline    = "true"
-            open-type = "getUserInfo"
-            lang      = "zh_CN"
-            @click    = "doOauth"
-        >小程序授权</i-button>
+    
+    <div class="page">
+        <div class="page__hd">
+            <h1>微信授权</h1>
+            <div>获取用户昵称和头像</div>
+        </div>
+        <div class="page_bd">
+            <button            
+                open-type = "getUserInfo"
+                lang      = "zh_CN"
+                @click    = "doOauth"
+                class="weui_btn weui_btn_plain_default"
+            >
+            <i class="iconfont icon-wechat"> 小程序授权</i>
+            </button>
+        </div>
+
+        <div class="weui-footer">
+            <div class="weui-footer__links">
+                <navigator url="" class="weui-footer__link">Yami</navigator>
+            </div>
+            <div class="weui-footer__text">Copyright©2019 YS MEDIA</div>
+        </div>
     </div>
 </template>
 
